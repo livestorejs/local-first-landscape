@@ -35,5 +35,3 @@ export const data = LandscapeSchema.make({
     },
   },
 })
-
-throw new Error('whoop')
