@@ -1,5 +1,5 @@
 {
   "dependencies": {
-    "@localfirstfm/landscape-schema": "0.0.0"
+    "@localfirstfm/landscape-schema": "0.0.1"
   }
 }
