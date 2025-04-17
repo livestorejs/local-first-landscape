@@ -32,7 +32,10 @@ export const data = LandscapeSchema.make({
 		DataSize: { data: '10GB', comment: `Theoretically there isn't an upper limit to the eventlog size however at some point it might become impractical to sync the eventlog over the network.` }
 	},
 	ClientSideData: {
-		QueryAPI: { data: ['Async'] },
+		QueryAPI: {
+			data: ['Reactive queries', 'Signals-based Reactivity', 'Sync']
+		},
+		OptimisticUpdates: { data: 'Yes', comment: `There isn't an explicit concept of "optimistic updates" in LiveStore. Events are always executed locally first and then synced to other clients. In case of a conflict, the event is rebased and replayed. This is similar to how Git works.` },
 		PersistenceMechanism: { data: ['IndexedDB', 'OPFS'] },
 		PersistenceFeatures: { data: 'Indexes' },
 		DataModel: { data: 'Event Sourcing', comment: 'LiveStore follows the event sourcing pattern which separates writes into an eventlog and materializes state into a local SQLite database.' },
@@ -51,4 +54,5 @@ export const data = LandscapeSchema.make({
 			},
 		},
 	},
+	InitialReleaseDate: new Date('2021-12-01'),
 })
