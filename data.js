@@ -17,7 +17,7 @@ export const data = LandscapeSchema.make({
 	GitHub: 'https://github.com/livestore-dev/livestore',
 	DevelopmentWorkflowsDX: { DebuggingTools: { data: ['DevTools', 'Data Inspector', 'Network Inspector'] } },
 	AppTarget: {
-		LanguageSDK: { data: ['typescript'] },
+		LanguageSDK: { data: ['TypeScript'] },
 		ClientBundleSize: { data: '~500kb gzipped', comment: 'For web apps, LiveStore ships with a SQLite WASM build (~600kb / 300kb gzipped) and the library itself is around 500kb / 170kb gzipped.' },
 		FrameworkIntegrations: { data: ['React', 'React Native', 'Solid'] },
 		Platform: { data: ['Browser', 'Node', 'iOS', 'Android'] }
