@@ -10,8 +10,8 @@ LiveStore is a TypeScript library that provides a unique approach to building da
 
 ## Resources
 
-- [Website](https://livestore.dev)
-- [Documentation](https://livestore.dev/docs/)
+- [Website](https://next.livestore.dev)
+- [Documentation](https://next.livestore.dev/docs/)
 - [GitHub](https://github.com/livestorejs/livestore)
 - [Examples](https://github.com/livestorejs/livestore/tree/main/examples/standalone)
 - [Discord](https://discord.gg/RbMcjUAPd7)
