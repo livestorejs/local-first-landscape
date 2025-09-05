@@ -8,7 +8,7 @@ export const data = LandscapeSchema.make({
 	Description: 'Client-centric local-first data layer for high-performance apps',
 	Website: 'https://livestore.dev',
 	Deployment: ['Self-hosted'],
-	// License: 'MIT',
+	License: 'Apache License 2.0',
 	MaturityLevel: 'Beta',
 	// AuthIdentity: {AuthenticationMethod: {data: ['']}},
 	// TODO update link
